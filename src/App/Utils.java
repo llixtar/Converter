@@ -6,7 +6,7 @@ public class Utils {
 
     public static String roundValue(double value) {
 
-        return new DecimalFormat("0.0").format(value);
+        return new DecimalFormat("0.00").format(value);
     }
 
     //------------------------------------------------------------------------------------------------------------------
